@@ -172,7 +172,15 @@ themeButton.addEventListener('click', () => {
 })
 
 document.getElementById("package1").onclick = function () {
-    window.location.href = "about.html";
+    window.location.href = "package1.html";
+};
+
+document.getElementById("package2").onclick = function () {
+    window.location.href = "package2.html";
+};
+
+document.getElementById("package3").onclick = function () {
+    window.location.href = "package3.html";
 };
 
 
@@ -180,13 +188,13 @@ document.getElementById("package1").onclick = function () {
 //document.getElementById('price').addEventListener('click', function () {
 //    var priceElement = this;
 //    var priceText = priceElement.innerText;
-//    if (priceText.includes('£')) {
+//    if (priceText.includes('Â£')) {
 //        // Convert to euros (example conversion rate: 1 GBP = 1.17 EUR)
 //        var priceInEuros = (2699 * 1.17).toFixed(2);
-//        priceElement.innerText = `€ ${priceInEuros}`;
+//        priceElement.innerText = `â‚¬ ${priceInEuros}`;
 //    } else {
 //        // Convert back to pounds
-//        priceElement.innerText = '£ 2699';
+//        priceElement.innerText = 'Â£ 2699';
 //    }
 //});
 
