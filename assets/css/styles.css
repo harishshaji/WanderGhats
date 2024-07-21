@@ -480,6 +480,7 @@ input {
   position: absolute;
   bottom: 1.5rem;
   left: 1rem;
+  padding-left:1rem;
 }
 
 .discover__title, 
@@ -692,6 +693,7 @@ input {
 }
 
 .place__title {
+    text-align:center;
     font-size: 21px;
     margin-bottom: var(--mb-0-25);
 }
@@ -704,7 +706,7 @@ input {
 
 .place__price{
     font-family:'Times New Roman', Times, serif;
-    font-size:30px;
+    font-size:25px;
     text-align:center;
 }
 
@@ -1128,4 +1130,8 @@ input {
   .home__container, .home__img {
     height: 640px;
   }
+    .container {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
 }
