@@ -1130,8 +1130,8 @@ input {
   .home__container, .home__img {
     height: 640px;
   }
-    .container {
+    /*.container {
         padding-left: 30px;
         padding-right: 30px;
-    }
+    }*/
 }
