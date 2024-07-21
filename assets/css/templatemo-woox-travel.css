@@ -397,9 +397,9 @@ Header Style
 .header-area .main-nav .nav li a {
   display: block;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 20px;
   text-transform: capitalize;
-  color: #fff;
+  color: black;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -2340,6 +2340,7 @@ body {
             display: block;
             padding: 8px;
             text-decoration: none;
+            color:black;
         }
 
             .tabs li a.active {
