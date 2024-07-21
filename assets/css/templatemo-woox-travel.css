@@ -79,7 +79,7 @@ html, body {
 }
 
 a {
-	color: #175b69;
+    color: black;
   text-decoration: none !important;
 }
 
@@ -613,6 +613,7 @@ Header Style
   }
   .header-area {
     background-color: #175b69;
+    color:white;
     padding: 0px 15px;
     height: 100px;
     box-shadow:initial;
@@ -1284,9 +1285,10 @@ About Page Style
 }
 
 .weekly-offers {
-  padding-bottom: 50px;
-  margin-top: 50px;
-  border-bottom: 1px solid #eee;
+    padding-bottom: 50px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    border-bottom: 1px solid #eee;
 }
 
 .weekly-offers .container-fluid {
@@ -2324,9 +2326,10 @@ body {
 }
 
 .tabs {
-    margin: 0;
+    margin: 10px;
     padding: 0;
     overflow: hidden;
+    position:relative;
 }
 
     .tabs li {
