@@ -1660,12 +1660,6 @@ body #user-button:hover .u-icons, body #user-button:focus-within .u-icons {
   height: 300% !important;
 }
 
-@media (prefers-color-scheme: dark) {
-  body:not(.light) {
-    background: #fff;
-    color: white;
-  }
-}
 body .credit {
   position: absolute;
   bottom: 20px;
