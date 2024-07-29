@@ -97,7 +97,7 @@ ul {
 p {
   font-size: 15px;
   line-height: 30px;
-  color: #afafaf;
+  color: #175b69;
 }
 
 img {
@@ -776,7 +776,7 @@ Banner Style
 }
 #section-1 .more-info h4 span {
   font-size: 15px;
-  color: #afafaf;
+  color: #175b69;
   font-weight: 400;
 }
 #section-1 .main-button {
@@ -963,7 +963,7 @@ Visit Country Style
 
 .visit-country .item .right-content span {
   font-size: 15px;
-  color: #afafaf;
+  color: #175b69;
   display: block;
 }
 
@@ -993,7 +993,7 @@ Visit Country Style
 .visit-country .item .right-content ul li {
   display: inline-block;
   width: 32%;
-  color: #afafaf;
+  color: #175b69;
   font-size: 14px;
 }
 
@@ -1156,6 +1156,50 @@ About Page Style
     z-index: 1;
 }
 
+.about-main-content2 {
+    margin-top: 70px;
+    background-image: url(../img/NatureCover.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 130px 0px 200px 0px;
+}
+
+.blur-bg2 {
+    width: 100%;
+    height: 100%;
+    background: url(../img/NatureCover.jpg) no-repeat center center fixed;
+    background-size: cover;
+    filter: blur(8px) brightness(60%);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.about-main-content3 {
+    margin-top: 70px;
+    background-image: url(../img/Package3Cover.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 130px 0px 200px 0px;
+}
+
+.blur-bg3 {
+    width: 100%;
+    height: 100%;
+    background: url(../img/Package3Cover.jpg) no-repeat center center fixed;
+    background-size: cover;
+    filter: blur(8px) brightness(60%);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
 .about-main-content .content {
   border-radius: 23px;
   text-align: center;
@@ -1212,6 +1256,122 @@ About Page Style
 .about-main-content .content .main-button a:hover {
   opacity: 0.9;
 }
+
+.about-main-content2 .content {
+  border-radius: 23px;
+  text-align: center;
+  padding: 120px 60px;
+  position: relative;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.about-main-content2 .content h2 {
+  color: #fff;
+  position: relative;
+  z-index: 2;
+  font-size: 50px;
+  margin-bottom: 25px;
+}
+
+.about-main-content2 .content .line-dec {
+  position: relative;
+  z-index: 2;
+  width: 100px;
+  height: 2px;
+  background-color: rgba(250,250,250,0.3);
+  margin: 20px auto;
+}
+
+.about-main-content2 .content h4 {
+  color: #fff;
+  position: relative;
+  z-index: 2;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.about-main-content2 .content p {
+  color: #fff;
+  position: relative;
+  z-index: 2;
+  padding: 0px 15%;
+}
+
+.about-main-content2 .content .main-button {
+  position: relative;
+  z-index: 2;
+  margin-top: 30px;
+}
+
+.about-main-content2 .content .main-button a {
+  background-color: #fff;
+  color: #175b69;
+  border-color: #fff;
+}
+
+.about-main-content2 .content .main-button a:hover {
+  opacity: 0.9;
+}
+
+.about-main-content3 .content {
+  border-radius: 23px;
+  text-align: center;
+  padding: 120px 60px;
+  position: relative;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.about-main-content3 .content h2 {
+  color: #fff;
+  position: relative;
+  z-index: 2;
+  font-size: 50px;
+  margin-bottom: 25px;
+}
+
+.about-main-content3 .content .line-dec {
+  position: relative;
+  z-index: 2;
+  width: 100px;
+  height: 2px;
+  background-color: rgba(250,250,250,0.3);
+  margin: 20px auto;
+}
+
+.about-main-content3 .content h4 {
+  color: #fff;
+  position: relative;
+  z-index: 2;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.about-main-content3 .content p {
+  color: #fff;
+  position: relative;
+  z-index: 2;
+  padding: 0px 15%;
+}
+
+.about-main-content3 .content .main-button {
+  position: relative;
+  z-index: 2;
+  margin-top: 30px;
+}
+
+.about-main-content3 .content .main-button a {
+  background-color: #fff;
+  color: #175b69;
+  border-color: #fff;
+}
+
+.about-main-content3 .content .main-button a:hover {
+  opacity: 0.9;
+}
+
+
 
 .cities-town .slider-content {
   min-height: 100%;
@@ -1333,7 +1493,7 @@ About Page Style
 .weekly-offers .item .thumb .text h4 span,
 .weekly-offers .item .thumb .text h6 span {
   font-size: 15px;
-  color: #afafaf;
+  color: #175b69;
   font-weight: 400;
 }
 
@@ -1343,7 +1503,7 @@ About Page Style
 }
 
 .weekly-offers .item .thumb .text ul li {
-  color: #afafaf;
+  color: #175b69;
   font-size: 14px;
   margin-bottom: 5px;
 }
@@ -1660,6 +1820,12 @@ body #user-button:hover .u-icons, body #user-button:focus-within .u-icons {
   height: 300% !important;
 }
 
+@media (prefers-color-scheme: dark) {
+  body:not(.light) {
+    background: #fff;
+    color: white;
+  }
+}
 body .credit {
   position: absolute;
   bottom: 20px;
@@ -1957,7 +2123,7 @@ Deals Page Style
 
 .amazing-deals .item span.list {
   font-size: 15px;
-  color: #afafaf;
+  color: #175b69;
   font-weight: 500;
 }
 
@@ -2132,7 +2298,7 @@ Reservation Page Style
 
 .reservation-form #reservation-form label {
   font-size: 15px;
-  color: #afafaf;
+  color: #175b69;
 }
 
 .reservation-form #reservation-form input,
