@@ -120,7 +120,7 @@ window.addEventListener('scroll', scrollActive)
 const sr = ScrollReveal({
     distance: '60px',
     duration: 2800,
-    reset: true,
+    reset: false,
 })
 
 
@@ -198,24 +198,24 @@ document.getElementById("package3").onclick = function () {
 //document.getElementById('price').addEventListener('click', function () {
 //    var priceElement = this;
 //    var priceText = priceElement.innerText;
-//    if (priceText.includes('£')) {
+//    if (priceText.includes('Â£')) {
 //        // Convert to euros (example conversion rate: 1 GBP = 1.17 EUR)
 //        var priceInEuros = (2699 * 1.17).toFixed(2);
-//        priceElement.innerText = `€ ${priceInEuros}`;
+//        priceElement.innerText = `â‚¬ ${priceInEuros}`;
 //    } else {
 //        // Convert back to pounds
-//        priceElement.innerText = '£ 2699';
+//        priceElement.innerText = 'Â£ 2699';
 //    }
 //});
 
 
     function sendEmail() {
-        window.location.href = "mailto:harishshaji7@gmail.com?";
+        window.location.href = "mailto:wanderghats@gmail.com?";
         }
 
     function sendWhatsApp() {
-        let phoneNumber = "9188540372"; 
-    let message = "Hello!";
-    let url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
-    window.open(url, '_blank');
-        }
+        let phoneNumber = "+37128688830";
+        let message = "Hello!";
+        let url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
+        window.open(url, '_blank');
+    }
