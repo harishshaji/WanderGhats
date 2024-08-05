@@ -296,7 +296,7 @@ sr.reveal(`.video__description,.subscribe__description,p,.call-to-action .border
 })
 
 sr.reveal(`.video__content,
-           .subscribe__form,img`, {
+           .subscribe__form`, {
 	origin: 'right',
 	interval: 100,
 })
