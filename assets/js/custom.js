@@ -286,7 +286,7 @@ const sr = ScrollReveal({
 })
 
 
-sr.reveal(`.cities-town,h2,h1,h3,h5,h4`, {
+sr.reveal(`.cities-town,h2,h1,h3,h5`, {
 	origin: 'top',
 	interval: 100,
 })
